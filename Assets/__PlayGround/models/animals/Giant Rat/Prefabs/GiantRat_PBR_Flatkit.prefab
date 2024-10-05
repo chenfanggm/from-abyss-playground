@@ -1348,7 +1348,7 @@ GameObject:
   - component: {fileID: 7578528554407874143}
   - component: {fileID: 7578528554400621039}
   m_Layer: 0
-  m_Name: GiantRat_PBR
+  m_Name: GiantRat_PBR_Flatkit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1364,7 +1364,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 7.5000005, y: 7.5000005, z: 7.5000005}
+  m_LocalScale: {x: 8, y: 8, z: 8}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 7578528554407874115}
