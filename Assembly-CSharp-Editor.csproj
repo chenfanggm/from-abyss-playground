@@ -63,9 +63,7 @@
     <Compile Include="Assets\__PlayGround\shaders\FlatKit\[Render Pipeline] URP\Water\Editor\WaterEditor.cs" />
     <Compile Include="Assets\__PlayGround\shaders\FlatKit\Shaders\Editor\StylizedSurfaceEditor.cs" />
     <Compile Include="Assets\__PlayGround\shaders\FlatKit\[Render Pipeline] URP\Water\Editor\Tooltips.cs" />
-    <Compile Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Extra\Bloom\Editor\BloomGraphDrawer.cs" />
     <Compile Include="Assets\__PlayGround\shaders\FlatKit\Shaders\GradientSkybox\Editor\GradientSkyboxEditor.cs" />
-    <Compile Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Extra\Bloom\Editor\BloomEditor.cs" />
     <Compile Include="Assets\__PlayGround\shaders\FlatKit\Shaders\Editor\TerrainEditor.cs" />
     <Compile Include="Assets\__PlayGround\shaders\FlatKit\Shaders\Editor\Tooltips.cs" />
   </ItemGroup>

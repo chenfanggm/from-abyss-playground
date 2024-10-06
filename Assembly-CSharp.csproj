@@ -60,59 +60,25 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.18f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Scripts\BF_MowingUI.cs" />
-    <Compile Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Extra\AA\Scripts\Extensions.cs" />
-    <Compile Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Scripts\BF_SetInteractiveShaderEffects.cs" />
-    <Compile Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Extra\AA\Scripts\EffectBase.cs" />
-    <Compile Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Scripts\BF_RotatorDisplay.cs" />
-    <Compile Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Extra\AA\Scripts\VelocityBuffer.cs" />
-    <Compile Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Scripts\BF_FPSDisplay.cs" />
-    <Compile Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Scripts\BF_SubShowcase.cs" />
-    <Compile Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Scripts\BF_TractorCamera.cs" />
-    <Compile Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Scripts\BF_AssetManager.cs" />
     <Compile Include="Assets\__PlayGround\shaders\FlatKit\[Render Pipeline] URP\Water\Scripts\Buoyancy.cs" />
-    <Compile Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Scripts\BF_BallPlayerTriplanar.cs" />
-    <Compile Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Scripts\InputSystemSwitcher.cs" />
-    <Compile Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Scripts\BF_Terrain.cs" />
-    <Compile Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Extra\AA\Scripts\FrustumJitter.cs" />
-    <Compile Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Scripts\BF_SetInteractiveShaderEffectsTriplanar.cs" />
-    <Compile Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Scripts\BF_FxOnMouseClick.cs" />
-    <Compile Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Scripts\BF_BallPlayer.cs" />
-    <Compile Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Extra\Bloom\Bloom.cs" />
-    <Compile Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Scripts\BF_MowingTool.cs" />
-    <Compile Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Extra\AA\Scripts\TemporalReprojection.cs" />
-    <Compile Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Scripts\BF_MowingManager.cs" />
-    <Compile Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Scripts\BF_MeshExtrusion.cs" />
-    <Compile Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Extra\AA\Scripts\VelocityBufferTag.cs" />
-    <Compile Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Scripts\BF_RainActivator.cs" />
-    <Compile Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Scripts\BF_TractorController.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Extra\VertexColor.shader" />
     <None Include="Assets\__PlayGround\shaders\FlatKit\Shaders\StylizedSurface\LibraryUrp\LitForwardPass_DR.hlsl" />
-    <None Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Extra\AA\Shaders\IncNoise.cginc" />
     <None Include="Assets\__PlayGround\shaders\FlatKit\Shaders\StylizedSurface\LibraryUrp\TerrainLitPasses_DR.hlsl" />
-    <None Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Shaders\URP\BFGrassLiteURP.shader" />
+    <None Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Shaders\BFGrassLiteURP.shader" />
     <None Include="Assets\__PlayGround\shaders\FlatKit\Shaders\StylizedSurface\LibraryUrp\StylizedInput.hlsl" />
     <None Include="Assets\__PlayGround\shaders\FlatKit\Shaders\GradientSkybox\GradientSkybox.shader" />
     <None Include="Assets\__PlayGround\shaders\FlatKit\Shaders\StylizedSurface\LibraryUrp\Lighting_DR.hlsl" />
-    <None Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Shaders\URP\BFGrassTerrainURP.shader" />
+    <None Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Shaders\BFGrassTerrainURP.shader" />
     <None Include="Assets\__PlayGround\shaders\FlatKit\Shaders\StylizedSurface\StylizedSurfaceOutline.shader" />
-    <None Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Extra\AA\Shaders\IncDepth.cginc" />
-    <None Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Shaders\URP\Debug\BFGrassMobileDebugURP.shader" />
-    <None Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Extra\Bloom\Shader\Bloom.shader" />
-    <None Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Extra\Bloom\Shader\Bloom.cginc" />
-    <None Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Shaders\URP\BFGrassURP.shader" />
-    <None Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Extra\AA\Shaders\TemporalReprojection.shader" />
-    <None Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Extra\SkyboxGradient.shader" />
-    <None Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Extra\AA\LICENSE.txt" />
-    <None Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Extra\AA\Shaders\VelocityBuffer.shader" />
+    <None Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Shaders\Debug\BFGrassMobileDebugURP.shader" />
+    <None Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Shaders\BFGrassURP.shader" />
     <None Include="Assets\__PlayGround\shaders\FlatKit\Shaders\StylizedSurface\TerrainLitAdd_DR.shader" />
     <None Include="Assets\__PlayGround\shaders\FlatKit\Shaders\StylizedSurface\StylizedSurface.shader" />
     <None Include="Assets\__PlayGround\shaders\FlatKit\Shaders\LightPlane.shader" />
     <None Include="Assets\__PlayGround\shaders\FlatKit\Shaders\StylizedSurface\Terrain.shader" />
-    <None Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Shaders\URP\Debug\BFGrassGeoDebugURP.shader" />
-    <None Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Shaders\URP\BFGrassMobileURP.shader" />
+    <None Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Shaders\Debug\BFGrassGeoDebugURP.shader" />
+    <None Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Shaders\BFGrassMobileURP.shader" />
     <None Include="Assets\__PlayGround\shaders\FlatKit\[Render Pipeline] URP\Water\Shaders\Water.shader" />
   </ItemGroup>
   <ItemGroup>
