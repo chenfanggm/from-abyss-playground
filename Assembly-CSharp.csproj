@@ -73,7 +73,6 @@
     <None Include="Assets\__PlayGround\shaders\FlatKit\Shaders\StylizedSurface\StylizedSurfaceOutline.shader" />
     <None Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Shaders\Debug\BFGrassMobileDebugURP.shader" />
     <None Include="Assets\__PlayGround\scenes\main-scene\bf-grass\Shaders\BFGrassURP.shader" />
-    <None Include="Assets\__PlayGround\scenes\main-scene\sky-box\skybox-gradient.shader" />
     <None Include="Assets\__PlayGround\shaders\FlatKit\Shaders\StylizedSurface\TerrainLitAdd_DR.shader" />
     <None Include="Assets\__PlayGround\shaders\FlatKit\Shaders\StylizedSurface\StylizedSurface.shader" />
     <None Include="Assets\__PlayGround\shaders\FlatKit\Shaders\LightPlane.shader" />
