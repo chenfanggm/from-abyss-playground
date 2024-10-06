@@ -60,16 +60,14 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.18f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\BruteForce-GrassShader\Editor\BF_TerrainEditor.cs" />
     <Compile Include="Assets\__PlayGround\shaders\FlatKit\[Render Pipeline] URP\Water\Editor\WaterEditor.cs" />
     <Compile Include="Assets\__PlayGround\shaders\FlatKit\Shaders\Editor\StylizedSurfaceEditor.cs" />
-    <Compile Include="Assets\BruteForce-GrassShader\Editor\BF_MowingManagerEditor.cs" />
     <Compile Include="Assets\__PlayGround\shaders\FlatKit\[Render Pipeline] URP\Water\Editor\Tooltips.cs" />
     <Compile Include="Assets\__PlayGround\shaders\FlatKit\Shaders\GradientSkybox\Editor\GradientSkyboxEditor.cs" />
-    <Compile Include="Assets\BruteForce-GrassShader\Extra\Bloom\Editor\BloomEditor.cs" />
-    <Compile Include="Assets\BruteForce-GrassShader\Extra\Bloom\Editor\BloomGraphDrawer.cs" />
+    <Compile Include="Assets\__PlayGround\shaders\BruteForce-GrassShader\Extra\Bloom\Editor\BloomEditor.cs" />
     <Compile Include="Assets\__PlayGround\shaders\FlatKit\Shaders\Editor\TerrainEditor.cs" />
     <Compile Include="Assets\__PlayGround\shaders\FlatKit\Shaders\Editor\Tooltips.cs" />
+    <Compile Include="Assets\__PlayGround\shaders\BruteForce-GrassShader\Extra\Bloom\Editor\BloomGraphDrawer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

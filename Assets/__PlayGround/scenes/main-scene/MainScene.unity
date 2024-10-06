@@ -702,12 +702,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 759675870}
   m_CullTransparentMesh: 1
---- !u!4 &790727034 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7578528554407874091, guid: 8458f50765dd8064d89a1b7a3ab6a21d,
-    type: 3}
-  m_PrefabInstance: {fileID: 1698864319}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -1416,7 +1410,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8695353699600431925}
   - component: {fileID: 8695353699600431924}
-  - component: {fileID: 8695353699600431922}
   - component: {fileID: 6965897697445845420}
   m_Layer: 0
   m_Name: GrassCamera
@@ -1425,22 +1418,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &8695353699600431922
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8695353699600431921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b62b806ff67e9f42ae38b630eb59ca5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  transformToFollow: {fileID: 790727034}
-  rt: {fileID: 8400000, guid: da99359f15d7d7243971a2e534741376, type: 2}
-  GlobalTexName: _GlobalEffectRT
-  GlobalOrthoName: _OrthographicCamSize
 --- !u!20 &8695353699600431924
 Camera:
   m_ObjectHideFlags: 0
