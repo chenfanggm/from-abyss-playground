@@ -68,9 +68,11 @@
     <Compile Include="Assets/model-assets/demons/Demon Lord/Script/ScrollingUVs.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets/model-assets/TerrainSampleAssets/ThirdPartyNotices.txt" />
+    <None Include="Assets/model-assets/_others/TerrainSampleAssets/ThirdPartyNotices.txt" />
     <None Include="Assets/__PlayGround/shaders/FlatKit/Shaders/StylizedSurface/LibraryUrp/LitForwardPass_DR.hlsl" />
     <None Include="Assets/__PlayGround/shaders/FlatKit/Shaders/StylizedSurface/LibraryUrp/TerrainLitPasses_DR.hlsl" />
+    <None Include="Assets/model-assets/_others/Rowlan/Terrain/Stamps/Examples/MicroVerse/ReadMe.txt" />
+    <None Include="Assets/model-assets/_others/ProceduralTerrainPainter/Shaders/Filters.hlsl" />
     <None Include="Assets/__PlayGround/scenes/main-scene/bf-grass/Shaders/BFGrassLiteURP.shader" />
     <None Include="Assets/__PlayGround/shaders/FlatKit/Shaders/StylizedSurface/LibraryUrp/StylizedInput.hlsl" />
     <None Include="Assets/__PlayGround/shaders/FlatKit/Shaders/GradientSkybox/GradientSkybox.shader" />
@@ -79,12 +81,15 @@
     <None Include="Assets/__PlayGround/shaders/FlatKit/Shaders/StylizedSurface/StylizedSurfaceOutline.shader" />
     <None Include="Assets/model-assets/demons/Golem/Shader/SelfIllumBumpedSpecular.shader" />
     <None Include="Assets/__PlayGround/scenes/main-scene/bf-grass/Shaders/Debug/BFGrassMobileDebugURP.shader" />
+    <None Include="Assets/model-assets/_others/ProceduralTerrainPainter/_Demo/Textures/_LICENSE.txt" />
     <None Include="Assets/__PlayGround/scenes/main-scene/bf-grass/Shaders/BFGrassURP.shader" />
     <None Include="Assets/__PlayGround/shaders/FlatKit/Shaders/StylizedSurface/TerrainLitAdd_DR.shader" />
+    <None Include="Assets/model-assets/_others/ProceduralTerrainPainter/Shaders/Noise.hlsl" />
     <None Include="Assets/__PlayGround/shaders/FlatKit/Shaders/StylizedSurface/StylizedSurface.shader" />
     <None Include="Assets/__PlayGround/shaders/FlatKit/Shaders/LightPlane.shader" />
     <None Include="Assets/__PlayGround/shaders/FlatKit/Shaders/StylizedSurface/Terrain.shader" />
-    <None Include="Assets/model-assets/TerrainSampleAssets/ShaderGraphs/CustomFunctions/CustomLighting.hlsl" />
+    <None Include="Assets/model-assets/_others/ProceduralTerrainPainter/Shaders/Modifier.shader" />
+    <None Include="Assets/model-assets/_others/TerrainSampleAssets/ShaderGraphs/CustomFunctions/CustomLighting.hlsl" />
     <None Include="Assets/__PlayGround/scenes/main-scene/bf-grass/Shaders/Debug/BFGrassGeoDebugURP.shader" />
     <None Include="Assets/__PlayGround/scenes/main-scene/bf-grass/Shaders/BFGrassMobileURP.shader" />
     <None Include="Assets/__PlayGround/shaders/FlatKit/[Render Pipeline] URP/Water/Shaders/Water.shader" />
@@ -1107,6 +1112,8 @@
     <ProjectReference Include="FlatKit.Utils.Editor.csproj" />
     <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj" />
     <ProjectReference Include="ExternAttributes.Editor.csproj" />
+    <ProjectReference Include="sc.terrain.painter.editor.csproj" />
+    <ProjectReference Include="sc.terrain.painter.runtime.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
   <ItemGroup>
