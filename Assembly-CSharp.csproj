@@ -64,33 +64,56 @@
     <Analyzer Include="/Users/chfang/unity3d/editors/2022.3.18f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/model-assets/_unknown/AmplifyColor/Plugins/AmplifyColorTriggerProxyBase.cs" />
+    <Compile Include="Assets/model-assets/_unknown/AmplifyColor/Plugins/AmplifyColorTriggerProxy.cs" />
     <Compile Include="Assets/__PlayGround/shaders/FlatKit/[Render Pipeline] URP/Water/Scripts/Buoyancy.cs" />
+    <Compile Include="Assets/model-assets/_unknown/AmplifyColor/Plugins/AmplifyColorVolumeBase.cs" />
+    <Compile Include="Assets/model-assets/_unknown/AmplifyColor/Plugins/Runtime/VolumeEffects.cs" />
     <Compile Include="Assets/model-assets/demons/Demon Lord/Script/ScrollingUVs.cs" />
+    <Compile Include="Assets/model-assets/_unknown/AmplifyColor/Plugins/AmplifyColorRenderMask.cs" />
+    <Compile Include="Assets/model-assets/_unknown/AmplifyColor/Plugins/AmplifyColorTriggerProxy2D.cs" />
+    <Compile Include="Assets/model-assets/_unknown/AmplifyColor/Plugins/AmplifyColorVolume2D.cs" />
+    <Compile Include="Assets/model-assets/_unknown/AmplifyColor/Plugins/Runtime/VolumeEffectsFlags.cs" />
+    <Compile Include="Assets/model-assets/_unknown/AmplifyColor/Plugins/AmplifyColorEffect.cs" />
+    <Compile Include="Assets/model-assets/_unknown/AmplifyColor/Plugins/Runtime/VersionInfo.cs" />
+    <Compile Include="Assets/model-assets/_unknown/AmplifyColor/Plugins/AmplifyColorVolume.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets/model-assets/_others/TerrainSampleAssets/ThirdPartyNotices.txt" />
+    <None Include="Assets/model-assets/_unknown/TerrainSampleAssets/ThirdPartyNotices.txt" />
     <None Include="Assets/__PlayGround/shaders/FlatKit/Shaders/StylizedSurface/LibraryUrp/LitForwardPass_DR.hlsl" />
+    <None Include="Assets/model-assets/_unknown/AmplifyColor/EditorResources/Shaders/DepthMask.shader" />
     <None Include="Assets/__PlayGround/shaders/FlatKit/Shaders/StylizedSurface/LibraryUrp/TerrainLitPasses_DR.hlsl" />
-    <None Include="Assets/model-assets/_others/Rowlan/Terrain/Stamps/Examples/MicroVerse/ReadMe.txt" />
-    <None Include="Assets/model-assets/_others/ProceduralTerrainPainter/Shaders/Filters.hlsl" />
+    <None Include="Assets/model-assets/_unknown/StampIt/MicroVerse/ReadMe.txt" />
+    <None Include="Assets/model-assets/_unknown/ProceduralTerrainPainter/Shaders/Filters.hlsl" />
     <None Include="Assets/__PlayGround/scenes/main-scene/bf-grass/Shaders/BFGrassLiteURP.shader" />
     <None Include="Assets/__PlayGround/shaders/FlatKit/Shaders/StylizedSurface/LibraryUrp/StylizedInput.hlsl" />
     <None Include="Assets/__PlayGround/shaders/FlatKit/Shaders/GradientSkybox/GradientSkybox.shader" />
+    <None Include="Assets/model-assets/_unknown/AmplifyColor/EditorResources/Shaders/DepthMaskBlend.shader" />
+    <None Include="Assets/model-assets/_unknown/AmplifyColor/EditorResources/Shaders/RenderMask.shader" />
     <None Include="Assets/__PlayGround/shaders/FlatKit/Shaders/StylizedSurface/LibraryUrp/Lighting_DR.hlsl" />
     <None Include="Assets/__PlayGround/scenes/main-scene/bf-grass/Shaders/BFGrassTerrainURP.shader" />
     <None Include="Assets/__PlayGround/shaders/FlatKit/Shaders/StylizedSurface/StylizedSurfaceOutline.shader" />
     <None Include="Assets/model-assets/demons/Golem/Shader/SelfIllumBumpedSpecular.shader" />
+    <None Include="Assets/model-assets/_unknown/AmplifyColor/EditorResources/Shaders/Base.shader" />
     <None Include="Assets/__PlayGround/scenes/main-scene/bf-grass/Shaders/Debug/BFGrassMobileDebugURP.shader" />
-    <None Include="Assets/model-assets/_others/ProceduralTerrainPainter/_Demo/Textures/_LICENSE.txt" />
+    <None Include="Assets/model-assets/_unknown/ProceduralTerrainPainter/_Demo/Textures/_LICENSE.txt" />
+    <None Include="Assets/model-assets/_unknown/AmplifyColor/EditorResources/Shaders/MaskBlend.shader" />
+    <None Include="Assets/model-assets/_unknown/AmplifyColor/EditorResources/Shaders/Common.cginc" />
+    <None Include="Assets/model-assets/_unknown/AmplifyColor/EditorResources/Shaders/ProcessOnly.shader" />
+    <None Include="Assets/model-assets/_unknown/AmplifyColor/Readme.txt" />
     <None Include="Assets/__PlayGround/scenes/main-scene/bf-grass/Shaders/BFGrassURP.shader" />
     <None Include="Assets/__PlayGround/shaders/FlatKit/Shaders/StylizedSurface/TerrainLitAdd_DR.shader" />
-    <None Include="Assets/model-assets/_others/ProceduralTerrainPainter/Shaders/Noise.hlsl" />
+    <None Include="Assets/model-assets/_unknown/ProceduralTerrainPainter/Shaders/Noise.hlsl" />
+    <None Include="Assets/model-assets/_unknown/AmplifyColor/EditorResources/Shaders/Mask.shader" />
+    <None Include="Assets/model-assets/_unknown/AmplifyColor/Samples/LUT/Check out the full LUT Package.txt" />
     <None Include="Assets/__PlayGround/shaders/FlatKit/Shaders/StylizedSurface/StylizedSurface.shader" />
+    <None Include="Assets/model-assets/_unknown/AmplifyColor/EditorResources/Shaders/Blend.shader" />
     <None Include="Assets/__PlayGround/shaders/FlatKit/Shaders/LightPlane.shader" />
     <None Include="Assets/__PlayGround/shaders/FlatKit/Shaders/StylizedSurface/Terrain.shader" />
-    <None Include="Assets/model-assets/_others/ProceduralTerrainPainter/Shaders/Modifier.shader" />
-    <None Include="Assets/model-assets/_others/TerrainSampleAssets/ShaderGraphs/CustomFunctions/CustomLighting.hlsl" />
+    <None Include="Assets/model-assets/_unknown/ProceduralTerrainPainter/Shaders/Modifier.shader" />
+    <None Include="Assets/model-assets/_unknown/TerrainSampleAssets/ShaderGraphs/CustomFunctions/CustomLighting.hlsl" />
     <None Include="Assets/__PlayGround/scenes/main-scene/bf-grass/Shaders/Debug/BFGrassGeoDebugURP.shader" />
+    <None Include="Assets/model-assets/_unknown/AmplifyColor/EditorResources/Shaders/BlendCache.shader" />
     <None Include="Assets/__PlayGround/scenes/main-scene/bf-grass/Shaders/BFGrassMobileURP.shader" />
     <None Include="Assets/__PlayGround/shaders/FlatKit/[Render Pipeline] URP/Water/Shaders/Water.shader" />
   </ItemGroup>
@@ -1109,11 +1132,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="sc.terrain.painter.runtime.csproj" />
     <ProjectReference Include="FlatKit.Utils.Editor.csproj" />
     <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj" />
     <ProjectReference Include="ExternAttributes.Editor.csproj" />
     <ProjectReference Include="sc.terrain.painter.editor.csproj" />
-    <ProjectReference Include="sc.terrain.painter.runtime.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
   <ItemGroup>

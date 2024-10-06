@@ -7,13 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlatKit.Utils.Editor", "Fla
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternAttributes.Editor", "ExternAttributes.Editor.csproj", "{F32299C7-186F-513C-B4EE-F0334094F8A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sc.terrain.painter.runtime", "sc.terrain.painter.runtime.csproj", "{15B029AB-FE09-E1A4-72F8-A11AF37EFEBF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sc.terrain.painter.editor", "sc.terrain.painter.editor.csproj", "{5EE64617-D796-E13D-CB6A-769E0CBB2739}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{F27FF636-C862-9836-D622-C0AEB5C49E82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sc.terrain.painter.editor", "sc.terrain.painter.editor.csproj", "{5EE64617-D796-E13D-CB6A-769E0CBB2739}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{D0668ACE-3804-6F53-4856-B9EA229714C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sc.terrain.painter.runtime", "sc.terrain.painter.runtime.csproj", "{15B029AB-FE09-E1A4-72F8-A11AF37EFEBF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,22 +33,22 @@ Global
 		{F32299C7-186F-513C-B4EE-F0334094F8A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F32299C7-186F-513C-B4EE-F0334094F8A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F32299C7-186F-513C-B4EE-F0334094F8A5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{15B029AB-FE09-E1A4-72F8-A11AF37EFEBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{15B029AB-FE09-E1A4-72F8-A11AF37EFEBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{15B029AB-FE09-E1A4-72F8-A11AF37EFEBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{15B029AB-FE09-E1A4-72F8-A11AF37EFEBF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F27FF636-C862-9836-D622-C0AEB5C49E82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F27FF636-C862-9836-D622-C0AEB5C49E82}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F27FF636-C862-9836-D622-C0AEB5C49E82}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F27FF636-C862-9836-D622-C0AEB5C49E82}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5EE64617-D796-E13D-CB6A-769E0CBB2739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5EE64617-D796-E13D-CB6A-769E0CBB2739}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EE64617-D796-E13D-CB6A-769E0CBB2739}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EE64617-D796-E13D-CB6A-769E0CBB2739}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F27FF636-C862-9836-D622-C0AEB5C49E82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F27FF636-C862-9836-D622-C0AEB5C49E82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F27FF636-C862-9836-D622-C0AEB5C49E82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F27FF636-C862-9836-D622-C0AEB5C49E82}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D0668ACE-3804-6F53-4856-B9EA229714C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D0668ACE-3804-6F53-4856-B9EA229714C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0668ACE-3804-6F53-4856-B9EA229714C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0668ACE-3804-6F53-4856-B9EA229714C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15B029AB-FE09-E1A4-72F8-A11AF37EFEBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15B029AB-FE09-E1A4-72F8-A11AF37EFEBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15B029AB-FE09-E1A4-72F8-A11AF37EFEBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15B029AB-FE09-E1A4-72F8-A11AF37EFEBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

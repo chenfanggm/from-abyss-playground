@@ -65,11 +65,32 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/__PlayGround/shaders/FlatKit/[Render Pipeline] URP/Water/Editor/WaterEditor.cs" />
+    <Compile Include="Assets/model-assets/_unknown/AmplifyColor/Plugins/Editor/AmplifyColorRenderMaskEditor.cs" />
+    <Compile Include="Assets/model-assets/_unknown/AmplifyColor/Plugins/Editor/PhotoshopTouchHelper.cs" />
     <Compile Include="Assets/__PlayGround/shaders/FlatKit/[Render Pipeline] URP/Water/Editor/Tooltips.cs" />
+    <Compile Include="Assets/model-assets/_unknown/AmplifyColor/Plugins/Editor/LUTWriter.cs" />
+    <Compile Include="Assets/model-assets/_unknown/AmplifyColor/Plugins/Editor/LUTSettings.cs" />
     <Compile Include="Assets/__PlayGround/shaders/FlatKit/Shaders/GradientSkybox/Editor/GradientSkyboxEditor.cs" />
+    <Compile Include="Assets/model-assets/_unknown/AmplifyColor/Plugins/Editor/PhotoshopConnection.cs" />
+    <Compile Include="Assets/model-assets/_unknown/AmplifyColor/Plugins/Editor/AmplifyColorEffectEditor.cs" />
+    <Compile Include="Assets/model-assets/_unknown/AmplifyColor/Plugins/Editor/ToolSettings.cs" />
+    <Compile Include="Assets/model-assets/_unknown/AmplifyColor/Plugins/Editor/AmplifyColorVolumeEditor.cs" />
+    <Compile Include="Assets/model-assets/_unknown/AmplifyColor/Plugins/Editor/About.cs" />
     <Compile Include="Assets/__PlayGround/shaders/FlatKit/Shaders/Editor/TerrainEditor.cs" />
+    <Compile Include="Assets/model-assets/_unknown/AmplifyColor/Plugins/Editor/ImageResult.cs" />
+    <Compile Include="Assets/model-assets/_unknown/AmplifyColor/Plugins/Editor/PhotoshopEncryptDecrypt.cs" />
+    <Compile Include="Assets/model-assets/_unknown/AmplifyColor/Plugins/Editor/LUTResult.cs" />
+    <Compile Include="Assets/model-assets/_unknown/AmplifyColor/Plugins/Editor/PhotoshopProtocol.cs" />
     <Compile Include="Assets/__PlayGround/shaders/FlatKit/Shaders/Editor/StylizedSurfaceEditor.cs" />
+    <Compile Include="Assets/model-assets/_unknown/AmplifyColor/Plugins/Editor/BackBufferHandler.cs" />
+    <Compile Include="Assets/model-assets/_unknown/AmplifyColor/Plugins/Editor/FileHandler.cs" />
+    <Compile Include="Assets/model-assets/_unknown/AmplifyColor/Plugins/Editor/ResolutionSettings.cs" />
+    <Compile Include="Assets/model-assets/_unknown/AmplifyColor/Plugins/Editor/EncryptDecrypt.cs" />
+    <Compile Include="Assets/model-assets/_unknown/AmplifyColor/Plugins/Editor/LUTEditor.cs" />
+    <Compile Include="Assets/model-assets/_unknown/AmplifyColor/Plugins/Editor/StartScreen.cs" />
+    <Compile Include="Assets/model-assets/_unknown/AmplifyColor/Plugins/Editor/PhotoshopHandler.cs" />
     <Compile Include="Assets/__PlayGround/shaders/FlatKit/Shaders/Editor/Tooltips.cs" />
+    <Compile Include="Assets/model-assets/_unknown/AmplifyColor/Plugins/Editor/CameraCollection.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -1159,11 +1180,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj" />
+    <ProjectReference Include="sc.terrain.painter.runtime.csproj" />
     <ProjectReference Include="FlatKit.Utils.Editor.csproj" />
     <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj" />
     <ProjectReference Include="ExternAttributes.Editor.csproj" />
     <ProjectReference Include="sc.terrain.painter.editor.csproj" />
-    <ProjectReference Include="sc.terrain.painter.runtime.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
   <ItemGroup>
