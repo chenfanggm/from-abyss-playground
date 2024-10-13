@@ -944,10 +944,11 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 745858589}
-  - {fileID: 2130263558}
-  - {fileID: 1752326270}
-  - {fileID: 27246517}
+  - {fileID: 335787323}
   - {fileID: 1738623029}
+  - {fileID: 27246517}
+  - {fileID: 1752326270}
+  - {fileID: 2130263558}
   m_Father: {fileID: 2059018752}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &330585543
@@ -1089,7 +1090,7 @@ GameObject:
   - component: {fileID: 335787323}
   - component: {fileID: 335787324}
   m_Layer: 6
-  m_Name: FarBackground
+  m_Name: super-far-bg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1103,12 +1104,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 335787322}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.5, y: 12.6, z: 30}
+  m_LocalRotation: {x: -0.043619405, y: -0, z: -0, w: 0.9990483}
+  m_LocalPosition: {x: 23.7, y: 16.374443, z: 43.739315}
   m_LocalScale: {x: 1.1, y: 1.1, z: 1.1}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 2059018752}
+  m_Father: {fileID: 265015140}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &335787324
 SpriteRenderer:
@@ -2348,7 +2349,7 @@ GameObject:
   - component: {fileID: 745858589}
   - component: {fileID: 745858590}
   m_Layer: 6
-  m_Name: WindZone
+  m_Name: wind-zone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4408,13 +4409,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1641934048}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.54669005, y: 0.4511532, z: -0.21340483, w: 0.67234606}
+  m_LocalRotation: {x: 0.5029886, y: 0.46590242, z: -0.18101649, w: 0.70510316}
   m_LocalPosition: {x: -5, y: 15, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1032389762}
-  m_LocalEulerAnglesHint: {x: 68.077, y: 90.739, z: 33.545}
+  m_LocalEulerAnglesHint: {x: 61.401, y: 82.814, z: 26.477}
 --- !u!114 &1641934050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5773,7 +5774,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 335787323}
   - {fileID: 265015140}
   - {fileID: 1093725168}
   - {fileID: 536931809}

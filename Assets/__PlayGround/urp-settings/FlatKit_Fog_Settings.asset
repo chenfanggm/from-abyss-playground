@@ -51,8 +51,8 @@ Material:
     - _DistanceFogIntensity: 0.4
     - _DistanceHeightBlend: 0.5
     - _Far: 50
-    - _HeightFogIntensity: 0.3
-    - _HighWorldY: 0.5
+    - _HeightFogIntensity: 0.4
+    - _HighWorldY: 1
     - _LowWorldY: 0
     - _Near: 10
     m_Colors: []
@@ -106,7 +106,7 @@ MonoBehaviour:
   useHeight: 1
   heightGradient:
     serializedVersion: 2
-    key0: {r: 0.9622642, g: 0.84231913, b: 0.5855287, a: 0.5882353}
+    key0: {r: 0.46257564, g: 0.59153897, b: 0.7264151, a: 0.5882353}
     key1: {r: 1, g: 1, b: 1, a: 0.039215688}
     key2: {r: 1, g: 1, b: 1, a: 0}
     key3: {r: 0, g: 0, b: 0, a: 0}
@@ -135,8 +135,8 @@ MonoBehaviour:
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
   low: 0
-  high: 0.5
-  heightFogIntensity: 0.3
+  high: 1
+  heightFogIntensity: 0.4
   cameraRelativePosition: 0
   distanceHeightBlend: 0.5
   renderEvent: 550
