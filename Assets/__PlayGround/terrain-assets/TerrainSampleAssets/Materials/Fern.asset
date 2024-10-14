@@ -206,7 +206,7 @@ Material:
     - _ZWrite: 1
     - _ZWriteControl: 0
     m_Colors:
-    - Fade_Color: {r: 0, g: 0, b: 0, a: 0}
+    - Fade_Color: {r: 0.38614988, g: 1, b: 0, a: 0}
     - SplatA: {r: 0, g: 0, b: 0, a: 0}
     - SplatB: {r: 0, g: 0, b: 0, a: 0}
     - SplatG: {r: 0, g: 0, b: 0, a: 0}
@@ -220,6 +220,6 @@ Material:
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _SSSColor: {r: 0.75029343, g: 0.8962264, b: 0.47770557, a: 0}
-    - _Subsurface_Scattering_Color: {r: 1, g: 1, b: 1, a: 0}
+    - _Subsurface_Scattering_Color: {r: 0.054031428, g: 0.8867924, b: 0, a: 0}
     - _Thickness_Remap: {r: 0, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
