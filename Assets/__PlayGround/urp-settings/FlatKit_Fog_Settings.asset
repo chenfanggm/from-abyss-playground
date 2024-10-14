@@ -52,7 +52,7 @@ Material:
     - _DistanceHeightBlend: 0.5
     - _Far: 50
     - _HeightFogIntensity: 0.2
-    - _HighWorldY: 0.5
+    - _HighWorldY: 0.4
     - _LowWorldY: 0
     - _Near: 10
     m_Colors: []
@@ -72,8 +72,8 @@ MonoBehaviour:
   useDistance: 1
   distanceGradient:
     serializedVersion: 2
-    key0: {r: 0.8962264, g: 0.580675, b: 0.49461553, a: 0}
-    key1: {r: 0.7924528, g: 0.49270874, b: 0.3252047, a: 0.50980395}
+    key0: {r: 0.254717, g: 0.254717, b: 0.254717, a: 0}
+    key1: {r: 0.6886792, g: 0.3339117, b: 0.13318795, a: 0.50980395}
     key2: {r: 0.89845055, g: 0.9245283, b: 0.43173724, a: 0}
     key3: {r: 0, g: 0, b: 0, a: 0}
     key4: {r: 0, g: 0, b: 0, a: 0}
@@ -106,7 +106,7 @@ MonoBehaviour:
   useHeight: 1
   heightGradient:
     serializedVersion: 2
-    key0: {r: 0.10528659, g: 0.118481115, b: 0.13207549, a: 0.5882353}
+    key0: {r: 0.31132078, g: 0.31132078, b: 0.31132078, a: 0.5882353}
     key1: {r: 1, g: 1, b: 1, a: 0.039215688}
     key2: {r: 1, g: 1, b: 1, a: 0}
     key3: {r: 0, g: 0, b: 0, a: 0}
@@ -114,7 +114,7 @@ MonoBehaviour:
     key5: {r: 0, g: 0, b: 0, a: 0}
     key6: {r: 0, g: 0, b: 0, a: 0}
     key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 578
+    ctime0: 193
     ctime1: 65535
     ctime2: 65535
     ctime3: 0
@@ -122,7 +122,7 @@ MonoBehaviour:
     ctime5: 0
     ctime6: 0
     ctime7: 0
-    atime0: 386
+    atime0: 578
     atime1: 65535
     atime2: 0
     atime3: 0
@@ -135,7 +135,7 @@ MonoBehaviour:
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
   low: 0
-  high: 0.5
+  high: 0.4
   heightFogIntensity: 0.2
   cameraRelativePosition: 0
   distanceHeightBlend: 0.5
