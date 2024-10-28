@@ -80,6 +80,7 @@
     <None Include="Assets/model-assets/demons/Golem/Shader/SelfIllumBumpedSpecular.shader" />
     <None Include="Assets/__PlayGround/scenes/main-scene/bf-grass/Shaders/Debug/BFGrassMobileDebugURP.shader" />
     <None Include="Assets/__PlayGround/scenes/main-scene/bf-grass/Shaders/BFGrassURP.shader" />
+    <None Include="Assets/VolumetricLightsBundle/_README FIRST!.txt" />
     <None Include="Assets/__PlayGround/shaders/FlatKit/Shaders/StylizedSurface/TerrainLitAdd_DR.shader" />
     <None Include="Assets/__PlayGround/shaders/FlatKit/Shaders/StylizedSurface/StylizedSurface.shader" />
     <None Include="Assets/__PlayGround/shaders/FlatKit/Shaders/LightPlane.shader" />
